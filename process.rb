@@ -1,3 +1,14 @@
+# rvm install ruby-2.3.0 --default
+# gem install 'spreadsheet'
+
+# create a folder called LeaveStats
+# place repository contents inside
+# create a folder called files/sworn and files/corrections
+# and put a copy of sworn and corrections leave records inside
+
+# run: ruby process.rb
+
+
 require 'spreadsheet'
 
 Spreadsheet.client_encoding = 'UTF-8'
